@@ -1,0 +1,126 @@
+[{
+  "id": 2009,
+  "name": "Porte-du-Scex",
+  "columns": [
+    "Date",
+    "Time",
+    "Level [m a.s.l.]",
+    "Temperature [°C]",
+    "Oxygen [mg/l]",
+    "pH [pH]",
+    "Conductivity [µS/cm]",
+    "Turbidity [TEF]",
+    "Flow [m³/s]"
+  ],
+  "parameters": [{
+    "file": "CSV/2009/BAFU_2009_Wassertemperatur1.csv",
+    "name": "Temperature [°C]"
+  },
+    {
+    "file": "CSV/2009/BAFU_2009_Sauerstoff.csv",
+    "name": "Oxygen [mg/l]"
+  },
+  {
+  "file": "CSV/2009/BAFU_2009_pHWert.csv",
+  "name": "pH [pH]"
+},
+  {
+  "file": "CSV/2009/BAFU_2009_Leitfaehigkeit.csv",
+  "name": "Conductivity [µS/cm]"
+},
+  {
+  "file": "CSV/2009/BAFU_2009_TruebungSolitaxBSTU.csv",
+  "name": "Turbidity [TEF]"
+},
+  {
+  "file": "CSV/2009/BAFU_2009_AbflussPneumatikunten.csv",
+  "name": "Flow [m³/s]"
+},
+  {
+  "file": "CSV/2009/BAFU_2009_PegelPneumatikunten.csv",
+  "name": "Level [m a.s.l.]"
+}
+  ]
+},{
+  "id": 2606,
+  "name": "Halle-de-l-ile",
+  "columns": [
+    "Date",
+    "Time",
+    "Flow [m³/s]"
+  ],
+  "parameters": [{
+    "file": "CSV/2606/BAFU_2606_AbflussRisoniclinksvorRollout.csv",
+    "name": "Flow [m³/s]"
+  }]},{
+  "id": 2099,
+  "name": "Limmat",
+  "columns": [
+    "Date",
+    "Time",
+    "Flow [m³/s]"
+  ],
+  "parameters": [{
+    "file": "CSV/2099/BAFU_2099_AbflussRadarSchacht.csv",
+    "name": "Flow [m³/s]"
+  }]},{
+  "id": 2104,
+  "name": "Linth",
+  "columns": [
+    "Date",
+    "Time",
+    "Temperature [°C]",
+    "Flow [m³/s]"
+  ],
+  "parameters": [{
+    "file": "CSV/2104/BAFU_2104_AbflussPneumatik.csv",
+    "name": "Flow [m³/s]"
+  },{
+    "file": "CSV/2104/BAFU_2104_Wassertemperatur.csv",
+    "name": "Temperature [°C]"
+  }]},{
+  "id": 2014,
+  "name": "Obersee",
+  "columns": [
+    "Date",
+    "Time",
+    "Level [m a.s.l.]"
+  ],
+  "parameters": [{
+    "file": "CSV/2014/BAFU_2014_PegelRadarSchacht.csv",
+    "name": "Level [m a.s.l.]"
+  }]},{
+  "id": 2209,
+  "name": "Zurichsee",
+  "columns": [
+    "Date",
+    "Time",
+    "Level [m a.s.l.]"
+  ],
+  "parameters": [{
+    "file": "CSV/2209/BAFU_2209_PegelRadarSchacht.csv",
+    "name": "Level [m a.s.l.]"
+  }]},{
+  "id": 2028,
+  "name": "Secheron",
+  "columns": [
+    "Date",
+    "Time",
+    "Level [m a.s.l.]"
+  ],
+  "parameters": [{
+    "file": "CSV/2028/BAFU_2028_PegelPneumatik.csv",
+    "name": "Level [m a.s.l.]"
+  }]},{
+  "id": 2027,
+  "name": "St-Prex",
+  "columns": [
+    "Date",
+    "Time",
+    "Level [m a.s.l.]"
+  ],
+  "parameters": [{
+    "file": "CSV/2027/BAFU_2027_PegelPneumatik.csv",
+    "name": "Level [m a.s.l.]"
+  }]}
+  ]
