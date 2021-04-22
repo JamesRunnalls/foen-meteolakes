@@ -1,1 +1,4 @@
-cd 
+tests/id_rsa
+tests/credentials.json
+operational/id_rsa
+operational/credentials.json
